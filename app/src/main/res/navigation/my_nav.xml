@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.daffa.dailynews.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/esportFragment"
+        android:name="com.daffa.dailynews.ui.esport.EsportFragment"
+        android:label="fragment_esport"
+        tools:layout="@layout/fragment_esport" />
+    <fragment
+        android:id="@+id/talkFragment"
+        android:name="com.daffa.dailynews.ui.talk.TalkFragment"
+        android:label="fragment_talk"
+        tools:layout="@layout/fragment_talk" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.daffa.dailynews.ui.news.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.daffa.dailynews.ui.review.ReviewFragment"
+        android:label="fragment_review"
+        tools:layout="@layout/fragment_review" />
+</navigation>
