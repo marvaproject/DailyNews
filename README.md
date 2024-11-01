@@ -1,2 +1,2 @@
 # DailyNews
-Kotlin application for gaming news
+News app made by kotlin
